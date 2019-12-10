@@ -1,0 +1,20 @@
+{
+  "name": "kumamidori/dev-pdo-statement",
+  "description":"A PDOStatement for Aura.SqlQuery",
+  "keywords":[
+    "pdo"
+  ],
+  "license": "MIT",
+  "autoload":{
+    "psr-4":{
+      "Kumamidori\\DevPdoStatement\\": "src/"
+    }
+  },
+  "require" : {
+    "php": ">=7.3.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~8.5"
+  }
+}

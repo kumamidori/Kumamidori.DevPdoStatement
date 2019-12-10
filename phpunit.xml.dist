@@ -1,0 +1,12 @@
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         verbose="true">
+    <php>
+        <var name="context" value="test-app"/>
+    </php>
+    <testsuites>
+        <testsuite name="Unit and Resource Tests">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
