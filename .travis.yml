@@ -22,7 +22,6 @@ matrix:
 before_script:
   - composer self-update
   - composer install
-  - mysql -uroot -e "create database tmp"
 
 script:
   - phpunit
